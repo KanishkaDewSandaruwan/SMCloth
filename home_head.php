@@ -99,7 +99,7 @@
                     $get = $row['cat_name'];
                     $id = $row['cat_id'];
 
-                    $bood="SELECT * FROM product where cat_id='".$id."'";
+                    $bood="SELECT * FROM product where cat_id='".$id."' AND available= 'Yes' ";
                 $query1 = mysqli_query($con,$bood);
 
                 if (mysqli_num_rows($query1) > 0) { ?>

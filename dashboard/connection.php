@@ -1,3 +1,3 @@
 <?php
-	$con=mysqli_connect("localhost","root","","pharmacy") or die("Database Not Conneced")
+	$con=mysqli_connect("localhost","root","","smclothing") or die("Database Not Conneced")
 ?>
